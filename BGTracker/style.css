@@ -1,0 +1,39 @@
+.vertical-menu {
+    width: 200px;
+    height: 150px;
+    overflow-y: auto;
+}
+  
+.vertical-menu button {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    cursor: pointer;
+    width: 100%;
+    transition-duration: 0.2s;
+}
+  
+.vertical-menu button:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+body {
+    min-width: 200px;
+    background-color: aqua;
+}
+
+button {
+    display: block;
+    cursor: pointer;
+    background-color: white;
+}
+
+h3 {
+    font-family: verdana;
+}
+
+h4 {
+    font-family: verdana;
+}
